@@ -1,0 +1,224 @@
+@import "global";
+
+#pages {
+  > * {
+    display: none;
+  }
+
+  > .active {
+    display: block;
+  }
+}
+
+.body {
+  margin: 0;
+  background: #fff;
+  color: #3d3d3d;
+  font-size: $font-size;
+  font-family: $font-text;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url("/images/background-small.png");
+  color: $white;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 40vh;
+  min-height: 600px;
+  position: relative;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.logo {
+  font-size: $font-size * 2;
+  line-height: 1;
+}
+
+.logo span {
+  font-size: $font-size;
+}
+
+.menu {
+  font-size: $font-size;
+}
+
+.menu a, .menu a:link, .menu a:visited, .menu a:hover, .menu a:active {
+  text-decoration: none;
+  color: $white;
+  padding: 10px;
+}
+
+.page-title {
+  font-size: $font-size * 5;
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: $brown;
+}
+
+.page-title span {
+  position: relative;
+  left: 100px;
+}
+
+.page-title::after {
+  display: block;
+  content: '';
+  margin-top: 10px;
+  border-bottom: 5px solid;
+  color: $brown;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.button p, .button i {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: $font-size * 2;
+}
+
+.button p {
+  padding: 20px;
+}
+
+.about {
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url("/images/about-us.jpg");
+  color: $white;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 40vh;
+  position: relative;
+}
+
+.header {
+  font-size: $font-size * 3;
+  color: $brown;
+  font-weight: 400;
+  text-align: center;
+  padding: 20px;
+}
+
+.header::after {
+  display: block;
+  content: '';
+  margin-top: 10px;
+  border-bottom: 5px solid;
+  color: $brown;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.description {
+  font-size: $font-size * 2;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.signature {
+  text-align: right;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.form {
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+.form input, textarea {
+  border: solid;
+}
+
+.form p {
+  margin-top: 10px;
+}
+
+.form button {
+  margin: 10px 0;
+  background-color: $brown;
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 5px;
+  width: 114px;
+}
+
+.contact-container .footer {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: $brown;
+  font-size: $font-size * 0.9;
+}
+
+.product {
+  margin: 30px;
+
+  &__name {
+    font-size: $font-size * 2;
+    font-weight: 700;
+    padding: 10px;
+  }
+
+  &__name::after {
+    display: block;
+    content: '';
+    margin-top: 10px;
+    border-bottom: 5px solid;
+    color: $brown;
+    margin-right: 0;
+    width: 100px;
+  }
+
+  &__specification {
+    font-weight: 700;
+  }
+
+  &__specification {
+    font-weight: 700;
+  }
+
+  &__description {
+    padding-left: 150px;
+    width: 450px;
+  }
+
+  &__rate {
+    color: $brown;
+    font-weight: 700;
+  }
+
+  &__parameters {
+    padding-top: 40px;
+  }
+
+  &__image {
+    height: 250px;
+    width: 350px;
+    box-shadow: 10px 10px 5px #ccc;
+  }
+}

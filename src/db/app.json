@@ -1,1 +1,31 @@
-{} 
+
+{
+    "products":[
+    {
+    "id": "01.",
+    "name": "LA LAGARTIJA",
+    "description": "Nulla quis tincidunt ex. Proin faucibus lacus et nibh blandit, ac interdum quam laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+    "roasting": "5/10",
+    "intensity": "6/10",
+    "image": ["images/coffee-1.png"],
+    "prize": "true"
+},
+{
+    "id": "02.",
+    "name": "EL TIGRE",
+    "description": "Nulla quis tincidunt ex. Proin faucibus lacus et nibh blandit, ac interdum quam laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+    "roasting": "8/10",
+    "intensity": "9/10",
+    "image": ["images/coffee-2.png"],
+    "directions": "true"
+},
+{
+    "id": "03.",
+    "name": "LA CUCARACHA",
+    "description": "Nulla quis tincidunt ex. Proin faucibus lacus et nibh blandit, ac interdum quam laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+    "roasting": "3/10",
+    "intensity": "7/10",
+    "image": ["images/coffee-3.png"]
+}
+]
+}
